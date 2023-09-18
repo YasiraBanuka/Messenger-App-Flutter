@@ -6,7 +6,10 @@ import 'package:provider/provider.dart';
 
 class LoginPage extends StatefulWidget {
   final void Function()? onTap;
-  const LoginPage({super.key, required this.onTap});
+  const LoginPage({
+    super.key,
+    required this.onTap,
+  });
 
   @override
   State<LoginPage> createState() => _LoginPageState();
@@ -24,7 +27,9 @@ class _LoginPageState extends State<LoginPage> {
 
     try {
       await authService.signInWithEmailandPassword(
-          emailController.text, passwordController.text);
+        emailController.text,
+        passwordController.text,
+      );
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
           content: Text(
