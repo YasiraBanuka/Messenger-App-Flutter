@@ -1,16 +1,20 @@
-# messenger_app
+# Chat Messenger App
 
-A new Flutter project.
+![Purple White Minimal Creative Modern Message App Online Flyer](https://github.com/YasiraBanuka/Messenger-App-Flutter/assets/111946114/29b84b72-0dfa-4876-bcae-b38bb2273fa3)
 
-## Getting Started
+This Flutter-based Messenger App is a real-time chat application that allows users to send and receive messages. It's built with Flutter for the frontend, Firebase Firestore for real-time database storage, and Firebase Authentication for user management. The app features a clean and intuitive user interface, making it easy for users to engage in conversations with friends and family. Feel free to explore the code, contribute, or use it as a starting point for your own chat app projects.
 
-This project is a starting point for a Flutter application.
+### Key Features
 
-A few resources to get you started if this is your first Flutter project:
+- Real-time messaging
+- User authentication
+- Clean and user-friendly UI
+- Easy-to-follow Flutter codebase
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Technologies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Firebase Firestore
+- Firebase Authentication
+
+  
